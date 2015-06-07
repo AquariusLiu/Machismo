@@ -14,6 +14,7 @@
 		B82DEE841A6B5F3F00EC9C0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82DEE831A6B5F3F00EC9C0E /* Images.xcassets */; };
 		B82DEE871A6B5F3F00EC9C0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82DEE851A6B5F3F00EC9C0E /* LaunchScreen.xib */; };
 		B82DEE931A6B5F3F00EC9C0E /* MachismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82DEE921A6B5F3F00EC9C0E /* MachismoTests.m */; };
+		B82DEE9D1A6B756700EC9C0E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B82DEE9C1A6B756700EC9C0E /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B82DEE8C1A6B5F3F00EC9C0E /* MachismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82DEE911A6B5F3F00EC9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82DEE921A6B5F3F00EC9C0E /* MachismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachismoTests.m; sourceTree = "<group>"; };
+		B82DEE9C1A6B756700EC9C0E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = model/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,10 @@
 		B82DEE751A6B5F3F00EC9C0E /* Machismo */ = {
 			isa = PBXGroup;
 			children = (
-				B82DEE7A1A6B5F3F00EC9C0E /* AppDelegate.h */,
-				B82DEE7B1A6B5F3F00EC9C0E /* AppDelegate.m */,
 				B82DEE7D1A6B5F3F00EC9C0E /* ViewController.h */,
 				B82DEE7E1A6B5F3F00EC9C0E /* ViewController.m */,
 				B82DEE801A6B5F3F00EC9C0E /* Main.storyboard */,
+				B82DEE9C1A6B756700EC9C0E /* Card.m */,
 				B82DEE831A6B5F3F00EC9C0E /* Images.xcassets */,
 				B82DEE851A6B5F3F00EC9C0E /* LaunchScreen.xib */,
 				B82DEE761A6B5F3F00EC9C0E /* Supporting Files */,
@@ -96,6 +97,8 @@
 		B82DEE761A6B5F3F00EC9C0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B82DEE7A1A6B5F3F00EC9C0E /* AppDelegate.h */,
+				B82DEE7B1A6B5F3F00EC9C0E /* AppDelegate.m */,
 				B82DEE771A6B5F3F00EC9C0E /* Info.plist */,
 				B82DEE781A6B5F3F00EC9C0E /* main.m */,
 			);
@@ -222,6 +225,7 @@
 				B82DEE7F1A6B5F3F00EC9C0E /* ViewController.m in Sources */,
 				B82DEE7C1A6B5F3F00EC9C0E /* AppDelegate.m in Sources */,
 				B82DEE791A6B5F3F00EC9C0E /* main.m in Sources */,
+				B82DEE9D1A6B756700EC9C0E /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				B82DEE981A6B5F3F00EC9C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B82DEE991A6B5F3F00EC9C0E /* Build configuration list for PBXNativeTarget "MachismoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				B82DEE9B1A6B5F3F00EC9C0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
